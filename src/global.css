@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-width: 350px;
+  margin: 0 auto;
+  font-family: 'Assistant', sans-serif;
+  min-height: 100vh;
+  overflow-y: scroll;
+  background: hsl(0, 0%, 98%);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 3px solid hsl(210, 60%, 55%);
+}
